@@ -1,0 +1,607 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Riya Singh | Constructivist Cyber-Security & Full-Stack Portfolio</title>
+  <meta name="description" content="Portfolio of Riya Singh - Computer Science Engineering Student specializing in IoT, Cybersecurity, & Blockchain Technology. MERN Stack Developer, DSA Problem Solver, Incuverse 1.0 Winner.">
+  <meta name="keywords" content="Riya Singh, Cybersecurity, MERN Stack, React, Node.js, Blockchain, IoT, Computer Science, LTCE, riidl, Portfolio">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Oswald:wght@500;600;700&family=Space+Grotesk:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+<body class="constructivist-body">
+
+  <!-- Background Decorative Grid & Shapes -->
+  <div class="bg-constructivist-grid"></div>
+  <div class="bg-diagonal-stripe"></div>
+
+  <!-- Top Marquee Ticker -->
+  <div class="marquee-wrapper">
+    <div class="marquee-content">
+      <span>CODE WITH PURPOSE • BUILD SECURELY • CREATE IMPACT • 🥇 INCUVERSE 1.0 WINNER (riidl) • B.TECH CS (IOT & CYBERSECURITY INCL. BLOCKCHAIN) • MERN STACK DEVELOPER • DSA & ALGORITHMS • </span>
+      <span>CODE WITH PURPOSE • BUILD SECURELY • CREATE IMPACT • 🥇 INCUVERSE 1.0 WINNER (riidl) • B.TECH CS (IOT & CYBERSECURITY INCL. BLOCKCHAIN) • MERN STACK DEVELOPER • DSA & ALGORITHMS • </span>
+    </div>
+  </div>
+
+  <!-- Main Navigation Header -->
+  <header class="constructivist-nav">
+    <div class="nav-brand">
+      <div class="brand-square">RS</div>
+      <div class="brand-text">
+        <span class="brand-name">RIYA SINGH</span>
+        <span class="brand-sub">iriyasingh</span>
+      </div>
+    </div>
+
+    <button id="mobile-nav-toggle" class="mobile-nav-toggle" aria-label="Toggle Mobile Menu">
+      <span class="hamburger-bar"></span>
+      <span class="hamburger-bar"></span>
+      <span class="hamburger-bar"></span>
+    </button>
+
+    <nav class="nav-links" id="nav-links-container">
+      <a href="#about" class="nav-item">01 // ABOUT</a>
+      <a href="#mindset" class="nav-item">02 // MINDSET</a>
+      <a href="#stack" class="nav-item">03 // TECH MATRIX</a>
+      <a href="#achievements" class="nav-item">04 // ACHIEVEMENTS</a>
+      <a href="#projects" class="nav-item">05 // PROJECTS</a>
+      <a href="#education" class="nav-item">06 // EDUCATION</a>
+    </nav>
+
+    <div class="nav-actions">
+      <button id="audio-toggle-btn" class="nav-btn-icon" title="Toggle Interface Audio">
+        <span class="audio-icon">🔊</span>
+      </button>
+      <a href="#terminal" class="constructivist-btn btn-sm btn-primary">
+        <span>RUN CLI</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero-section">
+    <div class="hero-container">
+      <div class="hero-grid">
+        
+        <!-- Hero Text Block -->
+        <div class="hero-text-block">
+          <div class="hero-badge">
+            <span class="badge-dot"></span>
+            <span>AVAILABLE FOR INNOVATION & HACKATHONS</span>
+          </div>
+
+          <h1 class="hero-title">
+            <span class="title-top">RIYA SINGH</span>
+            <span class="title-main">CODE. SECURITY.<br><span class="highlight-red">INNOVATION.</span></span>
+          </h1>
+
+          <div class="typing-container">
+            <span class="terminal-prompt">$</span>
+            <span id="typing-text" class="typing-target"></span>
+            <span class="cursor-blink">|</span>
+          </div>
+
+          <p class="hero-bio">
+            Computer Science Engineering Student at <strong>Lokmanya Tilak College of Engineering</strong>, pursuing B.Tech in <strong>CS with IoT & Cybersecurity including Blockchain Technology</strong>. Building high-performance MERN web applications with defensive security engineering at core.
+          </p>
+
+          <div class="hero-ctas">
+            <a href="#projects" class="constructivist-btn btn-hero btn-red">
+              <span>EXPLORE PROJECTS ➔</span>
+            </a>
+            <a href="#terminal" class="constructivist-btn btn-hero btn-black">
+              <span>LAUNCH CLI 💻</span>
+            </a>
+            <a href="https://linkedin.com/in/iriyasingh" target="_blank" rel="noopener" class="constructivist-btn btn-hero btn-outline">
+              <span>LINKEDIN ↗</span>
+            </a>
+          </div>
+
+          <!-- Counter Stats -->
+          <div class="hero-stats">
+            <div class="stat-card">
+              <span class="stat-num">01</span>
+              <span class="stat-label">Incuverse 1.0 Trophy Winner</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">2028</span>
+              <span class="stat-label">B.Tech CS (IoT & Cyber)</span>
+            </div>
+            <div class="stat-card">
+              <span class="stat-num">100%</span>
+              <span class="stat-label">Secure Coding Focus</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Constructivist Visual Frame -->
+        <div class="hero-visual-block">
+          <div class="constructivist-frame">
+            <div class="frame-tag">FIG 1.0 // ENGINE PROFILE</div>
+            <div class="frame-corners">
+              <div class="corner tl"></div>
+              <div class="corner tr"></div>
+              <div class="corner bl"></div>
+              <div class="corner br"></div>
+            </div>
+            <div class="image-wrapper">
+              <img src="/avatar.jpg" alt="Riya Singh Constructivist Profile" class="hero-img">
+              <div class="img-overlay-grid"></div>
+            </div>
+            <div class="frame-caption">
+              <span>SPECIALIZATION: IOT • CYBERSECURITY • BLOCKCHAIN</span>
+            </div>
+            <div class="badge-ribbon">
+              <span> riidl CHAMPION 🥇 </span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Divider Ribbon -->
+  <div class="constructivist-divider">
+    <div class="divider-line"></div>
+    <div class="divider-badge">01 // MANIFESTO & PROFILE</div>
+    <div class="divider-line"></div>
+  </div>
+
+  <!-- About Me Section -->
+  <section id="about" class="section-padding">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">ABOUT ME <span class="accent-no">/ 01</span></h2>
+        <p class="section-subtitle">Understanding both sides of technology: How to build secure systems — and how to make them better.</p>
+      </div>
+
+      <div class="about-grid">
+        
+        <!-- Manifesto Card -->
+        <div class="constructivist-card manifest-card">
+          <div class="card-header-bar">
+            <span>PHILOSOPHY.LOG</span>
+            <span class="status-indicator">ONLINE</span>
+          </div>
+          <div class="card-body">
+            <h3 class="manifest-title">"BUILDING SECURE SYSTEMS THAT SCALE"</h3>
+            <blockquote class="constructivist-quote">
+              "I enjoy building software, exploring emerging technologies, and solving real-world problems through technology. My primary interests span Full-Stack Development, Cybersecurity, AI, DSA, IoT, and Blockchain."
+            </blockquote>
+            <div class="philosophy-boxes">
+              <div class="p-box red">
+                <span class="p-icon">🛡️</span>
+                <h4>DEFENSIVE CODING</h4>
+                <p>Ensuring application resilience from architecture design to deployment.</p>
+              </div>
+              <div class="p-box cyan">
+                <span class="p-icon">⚡</span>
+                <h4>MERN STACK FOCUS</h4>
+                <p>Crafting modern, fast, modular web platforms with React and Node.js.</p>
+              </div>
+              <div class="p-box black">
+                <span class="p-icon">🧠</span>
+                <h4>DSA & LOGIC</h4>
+                <p>Algorithmic problem-solving to build clean, optimized data structures.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Terminal Widget -->
+        <div id="terminal" class="constructivist-terminal">
+          <div class="terminal-topbar">
+            <div class="term-dots">
+              <span class="dot red"></span>
+              <span class="dot yellow"></span>
+              <span class="dot green"></span>
+            </div>
+            <div class="term-title">┌──(riya㉿github)-[~/profile]</div>
+          </div>
+          <div class="terminal-body" id="term-body">
+            <div class="term-line"><span class="t-prompt">└─$</span> <span class="t-cmd">whoami</span></div>
+            <div class="term-output">
+Computer Science Engineering Student
+MERN Stack Developer
+Cybersecurity Enthusiast
+AI & Blockchain Explorer
+Problem Solver
+Tech & Innovation Enthusiast
+            </div>
+            <div class="term-line"><span class="t-prompt">└─$</span> <span class="t-cmd">cat education.json</span></div>
+            <div class="term-output json-output">
+{
+  "institution": "Lokmanya Tilak College of Engineering",
+  "degree": "B.Tech Computer Science Engineering",
+  "specialization": "IoT & Cybersecurity including Blockchain Technology",
+  "period": "Sept 2024 — July 2028",
+  "location": "Mumbai, Maharashtra, India"
+}
+            </div>
+            <div class="term-line"><span class="t-prompt">└─$</span> <span class="t-cmd">help</span></div>
+            <div class="term-output text-muted">
+Available commands: whoami, education, skills, achievements, projects, goals, clear
+            </div>
+          </div>
+          <div class="terminal-input-row">
+            <span class="t-prompt">└─$</span>
+            <input type="text" id="term-input" placeholder="Type command (e.g. skills, projects, clear)..." autocomplete="off">
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Divider Ribbon -->
+  <div class="constructivist-divider">
+    <div class="divider-line"></div>
+    <div class="divider-badge">02 // DEVELOPER MINDSET</div>
+    <div class="divider-line"></div>
+  </div>
+
+  <!-- Mindset Pipeline Section -->
+  <section id="mindset" class="section-padding bg-dark-grid">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">DEVELOPER MINDSET <span class="accent-no">/ 02</span></h2>
+        <p class="section-subtitle">Systematic, security-first software engineering workflow from problem identification to production deployment.</p>
+      </div>
+
+      <div class="pipeline-wrapper">
+        <div class="pipeline-steps">
+          
+          <div class="pipeline-node active" data-step="0">
+            <div class="node-num">01</div>
+            <div class="node-title">PROBLEM</div>
+            <div class="node-sub">Identify real-world challenge</div>
+          </div>
+          <div class="pipeline-arrow">➔</div>
+
+          <div class="pipeline-node" data-step="1">
+            <div class="node-num">02</div>
+            <div class="node-title">ANALYZE</div>
+            <div class="node-sub">Deconstruct requirements</div>
+          </div>
+          <div class="pipeline-arrow">➔</div>
+
+          <div class="pipeline-node" data-step="2">
+            <div class="node-num">03</div>
+            <div class="node-title">DESIGN</div>
+            <div class="node-sub">Architecture & UX blueprint</div>
+          </div>
+          <div class="pipeline-arrow">➔</div>
+
+          <div class="pipeline-node" data-step="3">
+            <div class="node-num">04</div>
+            <div class="node-title">CODE</div>
+            <div class="node-sub">Modular implementation</div>
+          </div>
+          <div class="pipeline-arrow">➔</div>
+
+          <div class="pipeline-node highlight-security" data-step="4">
+            <div class="node-num">05</div>
+            <div class="node-title">SECURE IT 🔐</div>
+            <div class="node-sub">Audit & Vulnerability checks</div>
+          </div>
+          <div class="pipeline-arrow">➔</div>
+
+          <div class="pipeline-node highlight-deploy" data-step="5">
+            <div class="node-num">06</div>
+            <div class="node-title">DEPLOY 🚀</div>
+            <div class="node-sub">Production launch & monitor</div>
+          </div>
+
+        </div>
+
+        <!-- Active Mindset Detail Display -->
+        <div class="mindset-detail-box" id="mindset-detail">
+          <!-- Dynamically populated via JS -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Divider Ribbon -->
+  <div class="constructivist-divider">
+    <div class="divider-line"></div>
+    <div class="divider-badge">03 // WHAT I DO & TECH MATRIX</div>
+    <div class="divider-line"></div>
+  </div>
+
+  <!-- What I Do Modules -->
+  <section id="what-i-do" class="section-padding">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">CORE CAPABILITIES <span class="accent-no">/ 03</span></h2>
+        <p class="section-subtitle">Architectural pillars spanning Web Engineering, Defensive Security, CS Theory, and Emerging Tech.</p>
+      </div>
+
+      <div class="four-pillar-grid">
+        
+        <!-- Pillar 1 -->
+        <div class="pillar-card p-red">
+          <div class="pillar-header">
+            <span class="pillar-icon">💻</span>
+            <h3>DEVELOPMENT</h3>
+          </div>
+          <ul class="pillar-list">
+            <li>MERN Stack Development</li>
+            <li>Full-Stack Web Applications</li>
+            <li>RESTful APIs Architecture</li>
+            <li>React.js Component Design</li>
+            <li>Node.js & Express.js Backends</li>
+            <li>MongoDB Database Modeling</li>
+          </ul>
+          <div class="pillar-footer">FULL-STACK ENGINE</div>
+        </div>
+
+        <!-- Pillar 2 -->
+        <div class="pillar-card p-black">
+          <div class="pillar-header">
+            <span class="pillar-icon">🔐</span>
+            <h3>CYBERSECURITY</h3>
+          </div>
+          <ul class="pillar-list">
+            <li>Cybersecurity Fundamentals</li>
+            <li>Secure Application Coding</li>
+            <li>OWASP Web Security Testing</li>
+            <li>Security Awareness & Best Practices</li>
+            <li>Ethical Hacking Explorations</li>
+            <li>Network & System Defense</li>
+          </ul>
+          <div class="pillar-footer">SECURITY SHIELD</div>
+        </div>
+
+        <!-- Pillar 3 -->
+        <div class="pillar-card p-cream">
+          <div class="pillar-header">
+            <span class="pillar-icon">🧠</span>
+            <h3>COMPUTER SCIENCE</h3>
+          </div>
+          <ul class="pillar-list">
+            <li>Data Structures & Optimization</li>
+            <li>Algorithms & Complexity Analysis</li>
+            <li>Algorithmic Problem Solving</li>
+            <li>Object-Oriented Programming</li>
+            <li>Software Engineering Principles</li>
+            <li>Clean Code Methodologies</li>
+          </ul>
+          <div class="pillar-footer">LOGIC CORE</div>
+        </div>
+
+        <!-- Pillar 4 -->
+        <div class="pillar-card p-cyan">
+          <div class="pillar-header">
+            <span class="pillar-icon">🚀</span>
+            <h3>EMERGING TECH</h3>
+          </div>
+          <ul class="pillar-list">
+            <li>Artificial Intelligence Fundamentals</li>
+            <li>Internet of Things (IoT) Hardware</li>
+            <li>Blockchain & Smart Contracts</li>
+            <li>Generative AI Workflows</li>
+            <li>Innovation & Entrepreneurship</li>
+            <li>Incuverse Competition Finalist</li>
+          </ul>
+          <div class="pillar-footer">FUTURE MATRIX</div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Tech Stack Matrix -->
+  <section id="stack" class="section-padding bg-dark-grid">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">TECH MATRIX <span class="accent-no">/ 03.B</span></h2>
+        <p class="section-subtitle">Languages, Frameworks, Protocols, and Tools powering Riya's workflow.</p>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="tech-filter-bar">
+        <button class="tech-filter-btn active" data-filter="all">ALL TECH</button>
+        <button class="tech-filter-btn" data-filter="prog">PROGRAMMING</button>
+        <button class="tech-filter-btn" data-filter="web">WEB DEV</button>
+        <button class="tech-filter-btn" data-filter="sec">CYBERSECURITY & SYS</button>
+        <button class="tech-filter-btn" data-filter="ai">AI & EMERGING</button>
+      </div>
+
+      <!-- Tech Cards Grid -->
+      <div class="tech-matrix-grid" id="tech-grid">
+        <!-- Rendered dynamically by JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Divider Ribbon -->
+  <div class="constructivist-divider">
+    <div class="divider-line"></div>
+    <div class="divider-badge">04 // ACHIEVEMENTS & VICTORIES</div>
+    <div class="divider-line"></div>
+  </div>
+
+  <!-- Achievements Section -->
+  <section id="achievements" class="section-padding">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">ACHIEVEMENTS <span class="accent-no">/ 04</span></h2>
+        <p class="section-subtitle">Recognized for innovation, problem solving, and technological excellence.</p>
+      </div>
+
+      <div class="achievement-spotlight">
+        <div class="achievement-grid">
+          
+          <div class="achievement-image-box">
+            <img src="/incuverse.jpg" alt="Incuverse 1.0 Winner riidl" class="achievement-img">
+            <div class="achievement-badge-overlay">
+              <span>🥇 FIRST PLACE</span>
+            </div>
+          </div>
+
+          <div class="achievement-text-box">
+            <div class="ach-tag">ENTREPRENEURSHIP & INNOVATION</div>
+            <h3 class="ach-title">WINNER — INCUVERSE 1.0</h3>
+            <div class="ach-org">riidl — Research Innovation Incubation Design Labs</div>
+
+            <p class="ach-desc">
+              My team won <strong>Incuverse 1.0</strong>, a prestigious entrepreneurship and innovation competition organized by <strong>riidl</strong>. We designed and presented a technology-driven solution addressing a critical real-world challenge, combining software innovation, business feasibility, and rapid prototyping.
+            </p>
+
+            <div class="ach-highlights">
+              <div class="h-item">
+                <span class="h-icon">💡</span>
+                <span>Real-world Problem Solving</span>
+              </div>
+              <div class="h-item">
+                <span class="h-icon">🏆</span>
+                <span>1st Place Winner Trophy</span>
+              </div>
+              <div class="h-item">
+                <span class="h-icon">⚙️</span>
+                <span>Tech Prototyping Excellence</span>
+              </div>
+            </div>
+
+            <button class="constructivist-btn btn-red mt-4" id="view-incuverse-details">
+              <span>VIEW COMPETITION BREAKDOWN ➔</span>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Divider Ribbon -->
+  <div class="constructivist-divider">
+    <div class="divider-line"></div>
+    <div class="divider-badge">05 // FEATURED PROJECTS</div>
+    <div class="divider-line"></div>
+  </div>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section-padding bg-dark-grid">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">FEATURED PROJECTS <span class="accent-no">/ 05</span></h2>
+        <p class="section-subtitle">Curated software systems across Full-Stack MERN, Cybersecurity Labs, and AI / IoT.</p>
+      </div>
+
+      <div class="projects-grid" id="projects-container">
+        <!-- Dynamically rendered via JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Section Divider Ribbon -->
+  <div class="constructivist-divider">
+    <div class="divider-line"></div>
+    <div class="divider-badge">06 // EDUCATION TIMELINE</div>
+    <div class="divider-line"></div>
+  </div>
+
+  <!-- Education Section -->
+  <section id="education" class="section-padding">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">EDUCATION <span class="accent-no">/ 06</span></h2>
+        <p class="section-subtitle">Academic foundations in Computer Science Engineering & Science.</p>
+      </div>
+
+      <div class="education-timeline">
+        
+        <!-- Timeline Item 1 -->
+        <div class="timeline-item">
+          <div class="timeline-marker red"></div>
+          <div class="timeline-content constructivist-card">
+            <div class="card-header-bar">BACHELOR OF TECHNOLOGY (B.TECH)</div>
+            <div class="card-body">
+              <div class="edu-date">📅 SEPT 2024 — JULY 2028 | 📍 MUMBAI, MAHARASHTRA</div>
+              <h3 class="edu-school">LOKMANYA TILAK COLLEGE OF ENGINEERING</h3>
+              <div class="edu-degree">Computer Science Engineering</div>
+              <div class="edu-spec">
+                <strong>Specialization:</strong> IoT & Cybersecurity including Blockchain Technology
+              </div>
+              <p class="edu-desc mt-2">
+                Engaging in core CS principles, object-oriented software engineering, IoT sensor connectivity, cryptographic blockchain protocols, and defensive cybersecurity frameworks.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Timeline Item 2 -->
+        <div class="timeline-item">
+          <div class="timeline-marker cyan"></div>
+          <div class="timeline-content constructivist-card">
+            <div class="card-header-bar">HIGHER SECONDARY EDUCATION (HSC)</div>
+            <div class="card-body">
+              <div class="edu-date">📅 JUNE 2023 — MARCH 2024 | 📍 SION, MUMBAI</div>
+              <h3 class="edu-school">SIES COLLEGE OF ARTS, SCIENCE & COMMERCE</h3>
+              <div class="edu-degree">Higher Secondary Education — Science Stream</div>
+              <p class="edu-desc mt-2">
+                Rigorous preparation in Mathematics, Physics, Chemistry, and Computer Science fundamentals.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Connect & Footer Section -->
+  <footer class="constructivist-footer">
+    <div class="container">
+      <div class="footer-hero-box">
+        <h2 class="footer-title">LET'S CONNECT & BUILD TOGETHER</h2>
+        <p class="footer-tagline">"Code with purpose. 🔐 Build securely. 🚀 Create impact."</p>
+
+        <div class="footer-links">
+          <a href="https://www.linkedin.com/in/iriyasingh" target="_blank" rel="noopener" class="constructivist-btn btn-hero btn-cyan">
+            <span>LINKEDIN // iriyasingh ↗</span>
+          </a>
+          <a href="https://github.com/iriyasingh" target="_blank" rel="noopener" class="constructivist-btn btn-hero btn-red">
+            <span>GITHUB // iriyasingh ↗</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom-bar">
+        <div class="f-copy">
+          © 2026 RIYA SINGH. DESIGNED IN CONSTRUCTIVIST ART STYLE.
+        </div>
+        <div class="f-nav">
+          <a href="#hero">TOP ▲</a>
+          <a href="#about">ABOUT</a>
+          <a href="#projects">PROJECTS</a>
+          <a href="#education">EDUCATION</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal for Incuverse & Project Details -->
+  <div id="constructivist-modal" class="modal-backdrop hidden">
+    <div class="modal-window">
+      <div class="modal-header">
+        <span id="modal-title">DETAIL VIEW</span>
+        <button id="modal-close-btn" class="modal-close">✕</button>
+      </div>
+      <div class="modal-body" id="modal-body">
+        <!-- Content inserted dynamically -->
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
